@@ -1,0 +1,22 @@
+h1{
+  font-size: 74px;
+  line-height: 1.4;
+  color: darkblue;
+}
+
+p{
+  margin-bottom: 20px;
+  font-size: 18px;
+  text-align: justify;
+}
+
+a{
+  text-decoration: none;
+  color: darkred;
+  transition: all .3s;
+
+  &:hover{
+    text-decoration: underline;
+    color: red;
+  }
+}
